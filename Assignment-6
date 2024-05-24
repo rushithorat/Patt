@@ -1,0 +1,10 @@
+console.log('Assignment-6');
+for(var i=1;i<=5;i++){
+    for(var j=1;j<=5-i;j++){
+        process.stdout.write(' \t');
+    }
+    for(var x=0;x<2*i-1;x++){
+        process.stdout.write('*\t');
+    }
+    console.log("\n");
+}

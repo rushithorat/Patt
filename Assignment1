@@ -1,0 +1,12 @@
+console.log('Assignment-1');
+for(var i=1;i<8;i++){
+    for(var j=i;j<8;j++){
+        
+        process.stdout.write(String(j+'\t'));
+    }
+    for(var x=1;x<i;x++){
+        
+        process.stdout.write(String(x+'\t'));
+    }
+    console.log('\n');
+}
